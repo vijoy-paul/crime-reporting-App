@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
             //String androidID = System.getString(this.getContentResolver(), Settings.Secure.ANDROID_ID);
 
            // Toast.makeText(MainActivity.this,Idimei, Toast.LENGTH_SHORT).show();
-            String mainUrl = "http://192.168.43.86:8080/dcr/submit.php?";
+            String mainUrl = "http://192.168.43.150/dcr/submit.php?";
             String param = "POL='" + preq + "'&AMBU='" + areq + "'&FIR='" + freq + "'&LAT='" + Lat + "'&LONG='" + Long + "'&LAND='" + landmark + "'&DES='" + description + "'&imei='" + Idimei + "'";
             Intent intent1 = new Intent(MainActivity.this, SubActivity.class);
             String uarl = mainUrl + param;
