@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">DRS</string>
+    <string name="Select_Type">Select type of Emergency</string>
+
+    <string-array name="select_arrays">
+
+        <item>Police</item>
+        <item>Ambulance</item>
+        <item>Fire Brigade</item>
+
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps_demo">Map</string>
+</resources>
