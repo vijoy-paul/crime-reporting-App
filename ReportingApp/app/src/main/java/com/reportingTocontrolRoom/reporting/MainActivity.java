@@ -72,17 +72,19 @@ public class MainActivity extends AppCompatActivity {
     public void sub(View v)  {
         try {
             String ap = getIntent().getStringExtra("LOC");
-            String Lat = "";
-            String Long = "";
-            int i, j;
-
-            for (i = 10; ap.charAt(i) != ','; i++) {
-                Lat += ap.charAt(i);
-            }
-
-            for (i = i + 1; ap.charAt(i) != ')'; i++) {
-                Long += ap.charAt(i);
-            }
+//            String Lat = "";
+//            String Long = "";
+            String Lat = "123456789"; //temp
+            String Long = "123456789"; //temp
+//            int i, j;
+//
+//            for (i = 10; ap.charAt(i) != ','; i++) {
+//                Lat += ap.charAt(i);
+//            }
+//
+//            for (i = i + 1; ap.charAt(i) != ')'; i++) {
+//                Long += ap.charAt(i);
+//            }
 
 
             String description = desc.getText().toString();
